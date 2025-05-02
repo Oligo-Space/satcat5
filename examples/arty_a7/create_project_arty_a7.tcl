@@ -50,9 +50,6 @@ set files_main [list \
 # Run the main script.
 source ../../project/vivado/shared_create.tcl
 
-#IP Repository 
-source ../../project/vivado/shared_ipcores.tcl
-
 # Execute the build and write out the .bin file.
 source ../../project/vivado/shared_build.tcl
 satcat5_launch_run
